@@ -4,6 +4,8 @@ A clean and responsive **Weather Web Application** that fetches real-time weathe
 
 ---
 
+## 🚀 Live Demo
+https://guravanakrishna111-tech.github.io/Weather-app/
 ## 📌 Features
 
 * 🌍 Search weather by city name
@@ -64,6 +66,9 @@ OR run using Live Server in VS Code.
 
 ---
 
+## 📸 Screenshot
+
+![alt text](image.png)
 ## 📈 Future Improvements
 
 * Add geolocation weather detection
