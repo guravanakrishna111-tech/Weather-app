@@ -1,4 +1,4 @@
-const apikey="your api key here";
+const apikey="2448f758d4a2e35d1fd47116f10c2c5e";
 const apiurl="https://api.openweathermap.org/data/2.5/weather?&units=metric&q=";
 const searchBox=document.querySelector(" .menu input");
 const searchBtn=document.querySelector(" .menu button");
@@ -14,7 +14,7 @@ const searchBtn=document.querySelector(" .menu button");
         {
             document.querySelector(".city").innerHTML=data.name;
             document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°C";
-            document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
+            document.querySelector(".humidity").innerHTML=data.main.humidity+"%";s
             document.querySelector(".wind").innerHTML=data.wind.speed+" km/h";
             document.querySelector(".pressure").innerHTML=data.main.pressure+" Pa";
             if(data.weather[0].main=="Rain"){
