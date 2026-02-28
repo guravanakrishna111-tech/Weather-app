@@ -14,7 +14,7 @@ const searchBtn=document.querySelector(" .menu button");
         {
             document.querySelector(".city").innerHTML=data.name;
             document.querySelector(".temp").innerHTML=Math.round(data.main.temp)+"°C";
-            document.querySelector(".humidity").innerHTML=data.main.humidity+"%";s
+            document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
             document.querySelector(".wind").innerHTML=data.wind.speed+" km/h";
             document.querySelector(".pressure").innerHTML=data.main.pressure+" Pa";
             if(data.weather[0].main=="Rain"){
